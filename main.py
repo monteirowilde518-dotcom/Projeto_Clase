@@ -10,8 +10,7 @@ def hello_world():
         "nome": "William Monteiro dos Santos",
         "cor": "amarelo",
         "william": "filho de Nidia Maria",
-         "cor_3": "#523cac",
-    }
+        }
 
 nome: str = "william"
 idade: int = 20
