@@ -33,4 +33,16 @@ print(type(idade))
 print(type(compra))
 print(type(valor_da_compra))
 
+class Instrumentos:
+    def __init__(self, nome, familia, voz):
+        self.nome = nome
+        self.familia = familia
+        self.voz = voz
+
+    def apresentar(self):
+        return f" meu istrumento e {self.nome}, ele pertence a familia do(a)s {self.familia} e pertence a voz do {self.voz}"
+
+Instrumento1 = Instrumentos("violino", "cortas", "Soprado")
+print(Instrumento1.apresentar())
+
 
