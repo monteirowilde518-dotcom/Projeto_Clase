@@ -2,7 +2,7 @@ OWASP Top 10
 
 ## 1. Controle de acesso quebrado 
 
-O que é: O sistema não consegue impedir que um funcionário acesse coisas às quais não tem acesso, mesmo estando logado. 
+**O que é:** O sistema não consegue impedir que um funcionário acesse coisas às quais não tem acesso, mesmo estando logado. 
 
 **Exemplo no mercado:**
 - Um funcionário do caixa consegue abrir o relatório de salários dos outros colaboradores. 
